@@ -6,6 +6,6 @@ namespace DataStructures.MyStack
 {
     public class Stack
     {
-
+        
     }
 }
