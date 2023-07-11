@@ -1,0 +1,12 @@
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\SinglyLinkedList\bin\Debug\net7.0\SinglyLinkedList.deps.json
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\SinglyLinkedList\bin\Debug\net7.0\SinglyLinkedList.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\SinglyLinkedList\bin\Debug\net7.0\SinglyLinkedList.pdb
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.csproj.AssemblyReference.cache
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.AssemblyInfoInputs.cache
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.AssemblyInfo.cs
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\SinglyLinkedList\obj\Debug\net7.0\refint\SinglyLinkedList.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.pdb
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\SinglyLinkedList\obj\Debug\net7.0\ref\SinglyLinkedList.dll

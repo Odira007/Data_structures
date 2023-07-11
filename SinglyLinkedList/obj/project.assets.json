@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\MyStack\\MyStack.csproj",
-      "projectName": "MyStack",
-      "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\MyStack\\MyStack.csproj",
+      "projectUniqueName": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\SinglyLinkedList\\SinglyLinkedList.csproj",
+      "projectName": "SinglyLinkedList",
+      "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\SinglyLinkedList\\SinglyLinkedList.csproj",
       "packagesPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\MyStack\\obj\\",
+      "outputPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\SinglyLinkedList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\AppData\\Roaming\\NuGet\\NuGet.Config",
