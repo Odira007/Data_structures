@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "MyQueue/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MyQueue.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyQueue.dll": {}
+        }
+      },
       "MyStack/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -11,19 +21,41 @@
         "runtime": {
           "bin/placeholder/MyStack.dll": {}
         }
+      },
+      "SinglyLinkedList/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SinglyLinkedList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SinglyLinkedList.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "MyQueue/1.0.0": {
+      "type": "project",
+      "path": "../MyQueue/MyQueue.csproj",
+      "msbuildProject": "../MyQueue/MyQueue.csproj"
+    },
     "MyStack/1.0.0": {
       "type": "project",
       "path": "../MyStack/MyStack.csproj",
       "msbuildProject": "../MyStack/MyStack.csproj"
+    },
+    "SinglyLinkedList/1.0.0": {
+      "type": "project",
+      "path": "../SinglyLinkedList/SinglyLinkedList.csproj",
+      "msbuildProject": "../SinglyLinkedList/SinglyLinkedList.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "MyStack >= 1.0.0"
+      "MyQueue >= 1.0.0",
+      "MyStack >= 1.0.0",
+      "SinglyLinkedList >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -32,11 +64,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\DS\\Program\\Program.csproj",
+      "projectUniqueName": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\Program\\Program.csproj",
       "projectName": "Program",
-      "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\DS\\Program\\Program.csproj",
+      "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\Program\\Program.csproj",
       "packagesPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\DS\\Program\\obj\\",
+      "outputPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +85,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\DS\\MyStack\\MyStack.csproj": {
-              "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\DS\\MyStack\\MyStack.csproj"
+            "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\MyQueue\\MyQueue.csproj": {
+              "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\MyQueue\\MyQueue.csproj"
+            },
+            "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\MyStack\\MyStack.csproj": {
+              "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\MyStack\\MyStack.csproj"
+            },
+            "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\SinglyLinkedList\\SinglyLinkedList.csproj": {
+              "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\Mentorship_project\\Data_structures\\SinglyLinkedList\\SinglyLinkedList.csproj"
             }
           }
         }
