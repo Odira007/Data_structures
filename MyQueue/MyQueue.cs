@@ -52,7 +52,7 @@ namespace DataStructures.MyQueue
             {
                 WriteLine("The stack is empty!");
             }
-            QueueNode current = tail;
+            head = head.next;
             
         }
 
