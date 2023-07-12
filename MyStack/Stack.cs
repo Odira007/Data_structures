@@ -1,6 +1,4 @@
 ﻿using System;
-using static System.Console;
-using System.Collections.Generic;
 
 namespace DataStructures.MyStack
 {
@@ -71,7 +69,7 @@ namespace DataStructures.MyStack
             }
             return head.data;
         }
-        
+
         /// <summary>
         /// Removes and returns the last item added to the stack
         /// </summary>

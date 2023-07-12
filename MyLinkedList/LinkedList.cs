@@ -1,4 +1,6 @@
-﻿namespace DataStructures.MyLinkedList
+﻿using System;
+
+namespace DataStructures.MyLinkedList
 {
     public class LinkedList
     {
