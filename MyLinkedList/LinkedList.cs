@@ -23,7 +23,6 @@ namespace DataStructures.MyLinkedList
         public void Add(int elem)
         {
             LinkedListNode newNode = new LinkedListNode(elem);
-            // check if list is empty
             if (head == null)
             {
                 head = newNode;
@@ -46,30 +45,25 @@ namespace DataStructures.MyLinkedList
         /// <returns>Return false if item is not found, true if it is</returns>
         public bool Remove(int item)
         {
-            if (head == null)
+            if (IsEmpty())
             {
                 return false;
             }
             if (head.data == item)
             {
+                head = head.next;
                 return true;
             }
             LinkedListNode first = head;
-            LinkedListNode second = first;
-            while (first.next != null)
+            LinkedListNode prev = null;
+
+            while (first != null && first.data != item)
             {
-                if (first.next.data != item)
-                {
-                    return false;
-                }
-                if (first.next.data == second.next.data || first.next.data == item)
-                {
-                    first = first.next;
-                    first.next = first.next.next;
-                    return true;
-                }
+                prev = first;
+                first = first.next;
             }
-            return false;
+            prev.next = first.next;
+            return true;
         }
 
         /// <summary>
@@ -84,12 +78,13 @@ namespace DataStructures.MyLinkedList
                 return false;
             }
             LinkedListNode current = head;
-            while(current.next != null)
+            while(current != null)
             {
-                if (current.data == item || current.next.data == item)
+                if (current.data == item)
                 {
                     return true;
                 }
+                current = current.next;
             }
             return false;
         }

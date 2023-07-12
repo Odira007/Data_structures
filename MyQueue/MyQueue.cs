@@ -21,12 +21,16 @@ namespace DataStructures.MyQueue
         /// <summary>
         /// Checks if the queue is empty
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Returns true if the queue is empty and false if it isn't</returns>
         public bool IsEmpty()
         {
             return head == null & tail == null;
         }
 
+        /// <summary>
+        /// adds an item to the tail of the queue
+        /// </summary>
+        /// <param name="elem">Value of the item to be added</param>
         public void Enqueue(int elem)
         {
             QueueNode newNode = new QueueNode(elem);
@@ -39,6 +43,9 @@ namespace DataStructures.MyQueue
             
         }
 
+        /// <summary>
+        /// Removes and returns the item at the head of the queue
+        /// </summary>
         public void Dequeue()
         {
             if(Size() == 0)
@@ -48,6 +55,11 @@ namespace DataStructures.MyQueue
             QueueNode current = tail;
             
         }
+
+        /// <summary>
+        /// Shows the number of items currently in the queue
+        /// </summary>
+        /// <returns>Returns the number of items in the queue</returns>
         public int Size()
         {
             QueueNode current = new QueueNode();
