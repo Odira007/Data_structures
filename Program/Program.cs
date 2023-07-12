@@ -20,10 +20,10 @@ class Program
         // list.Add(6);
         // list.Add(8);
 
-        // stack.Push(5);
-        // stack.Push(3);
-        // stack.Push(4);
-        // WriteLine(stack.Peek());
-        // WriteLine(stack.Size());
+        stack.Push(5);
+        stack.Push(3);
+        stack.Push(4);
+        WriteLine(stack.Peek());
+        WriteLine(stack.Size());
     }
 }
