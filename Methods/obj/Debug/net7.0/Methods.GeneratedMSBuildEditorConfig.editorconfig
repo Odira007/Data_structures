@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Program
-build_property.ProjectDir = c:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\Program\
+build_property.RootNamespace = Methods
+build_property.ProjectDir = c:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\Mentorship_project\Data_structures\Methods\
