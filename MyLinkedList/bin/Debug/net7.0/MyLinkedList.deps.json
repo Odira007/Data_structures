@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "SinglyLinkedList/1.0.0": {
+      "MyLinkedList/1.0.0": {
         "runtime": {
-          "SinglyLinkedList.dll": {}
+          "MyLinkedList.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "SinglyLinkedList/1.0.0": {
+    "MyLinkedList/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

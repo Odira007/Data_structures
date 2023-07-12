@@ -18,17 +18,31 @@ namespace DataStructures.MyStack
             }
         }
         public Stack(){}
-        // push elements into the stack
+        
+        /// <summary>
+        /// adds an item to the top of the stack
+        /// </summary>
+        /// <param name="elem">The item to be added to the stack</param>
         public void Push(int elem)
         {
             StackNode newNode = new StackNode(elem);
             newNode.next = head;
             head = newNode;
         }
+
+        /// <summary>
+        /// Checks if the stack is empty
+        /// </summary>
+        /// <returns>returns true if the stack is empty and false is it isn’t</returns>
         public bool IsEmpty()
         {
             return Size() == 0;
         }
+
+        /// <summary>
+        /// Get the number of items currently in the stack
+        /// </summary>
+        /// <returns>Returns number of items in the stack</returns>
         public int Size()
         {
             int count = 1;
@@ -44,6 +58,11 @@ namespace DataStructures.MyStack
             }
             return count;
         }
+
+        /// <summary>
+        /// Gets the item at the top of the stack
+        /// </summary>
+        /// <returns>Returns the last item added to the stack</returns>
         public int Peek()
         {
             if(IsEmpty())
@@ -52,7 +71,12 @@ namespace DataStructures.MyStack
             }
             return head.data;
         }
-        public void Pop()
+        
+        /// <summary>
+        /// Removes and returns the last item added to the stack
+        /// </summary>
+        /// <returns>Returns the last item added to the stack</returns>
+        public int Pop()
         {
             StackNode temp;
             if(IsEmpty())
@@ -61,7 +85,7 @@ namespace DataStructures.MyStack
             }
             temp = head;
             head = head.next;
-            temp = null;
+            return temp.data;
         }
     }
 }

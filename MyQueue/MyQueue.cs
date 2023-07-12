@@ -18,6 +18,10 @@ namespace DataStructures.MyQueue
             }
         }
 
+        /// <summary>
+        /// Checks if the queue is empty
+        /// </summary>
+        /// <returns></returns>
         public bool IsEmpty()
         {
             return head == null & tail == null;

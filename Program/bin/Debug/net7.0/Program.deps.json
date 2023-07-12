@@ -8,12 +8,17 @@
     ".NETCoreApp,Version=v7.0": {
       "Program/1.0.0": {
         "dependencies": {
+          "MyLinkedList": "1.0.0",
           "MyQueue": "1.0.0",
-          "MyStack": "1.0.0",
-          "SinglyLinkedList": "1.0.0"
+          "MyStack": "1.0.0"
         },
         "runtime": {
           "Program.dll": {}
+        }
+      },
+      "MyLinkedList/1.0.0": {
+        "runtime": {
+          "MyLinkedList.dll": {}
         }
       },
       "MyQueue/1.0.0": {
@@ -25,16 +30,16 @@
         "runtime": {
           "MyStack.dll": {}
         }
-      },
-      "SinglyLinkedList/1.0.0": {
-        "runtime": {
-          "SinglyLinkedList.dll": {}
-        }
       }
     }
   },
   "libraries": {
     "Program/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyLinkedList/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -45,11 +50,6 @@
       "sha512": ""
     },
     "MyStack/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "SinglyLinkedList/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
